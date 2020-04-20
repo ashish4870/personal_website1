@@ -1,0 +1,26 @@
+
+  body  {
+    Background-color: #EAF6F6;
+  }
+  hr {
+    border-style:  none;
+    border-top-style: dotted;
+    border-color:gray;
+    border-width:5px;
+    width:5%;
+  }
+  h1 {
+    color :#8ec6c5;
+  }
+  h3{
+    color:#8ec6c5;
+  }
+
+
+
+/* above border style is important see on MDN, We have specified that border style as none to get rid of other sides except top and then we have specified
+the border top style to dotted to make it dotted */
+/*--We add style tag into head tag, width 5% means the border is of 5% of total screen*/
+.circular {
+border-radius: 50%;
+}

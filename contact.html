@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <h3>Contact details:</h3>
+  </head>
+  <body>
+    <p>
+
+      <ul>
+        <li>My personal email address - ashishjadhav48700@gmail.com</li>
+        <li>My college email address - bb1170047@iitd.ac.in</li>
+        <li>My contact number - +917558508859 </li>
+        <li>My address - ED42, Kumaon Hostel, Hauz Khas IIT Delhi (110016), Delhi, India
+          </li>
+        <li> Note - Please see my profile page to coonect me on linkedin and instagram </li>
+
+      </ul>
+    </p>
+    <hr>
+    <form  action="mailto:ashishjadhav48700@gmail.com" method="post" enctype="text/plain">
+      <!-- previously in the action section of form, it was index.html, it would take user to homepage when he would submit the form whereas now in the action section
+      we have uploded mailto, it would help user to send mail directly to me by opening the users default mail box and also method post will transfer or submit whole
+      filled data to you by email-->
+      <!-- encoding type or 'enctype' help to get a plane text sent by user istead of weird looking one-->
+
+      <label>Your name:</label>
+      <input type="text" name="YourName" value=""><br>
+      <label>Your email:</label>
+      <input type="email" name="YourEmail" value=""><br>
+      <label>Your message</label><br>
+      <textarea name="YourMessage" rows="10" cols="20"></textarea><br>
+      <input type="submit" name="" value="">
+
+    </form>
+    <!-- above is form tag where you can give different attributes, check on MDN then label where you can given various names etc and then input where we can give
+    different types of inputs like text, submit, URL, date, image etc, check on MDN -->
+
+  </body>
+</html>
